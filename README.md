@@ -53,15 +53,13 @@ Since the tax structure is progressive, equal distribution minimizes marginal ta
 ---
 
 ## How to Run
+1. Start backend:
+   - cd backend
+   - npm install
+   - npm start
 
-### Backend
-```bash
-cd backend
-npm install
-npm start
-
-### Backend
-cd frontend
-npm install
-npm start
+2. Start frontend:
+   - cd frontend
+   - npm install
+   - npm start
 <img width="1366" height="691" alt="image" src="https://github.com/user-attachments/assets/11638f7f-f174-4710-8734-1ba650c9260d" />

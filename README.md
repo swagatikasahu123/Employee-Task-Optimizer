@@ -1,41 +1,39 @@
 # Employee Tax Optimization System
 
 ## Description
-Employee Tax Optimization System is a MERN-based application that helps an organization distribute its total yearly salary among employees in a way that minimizes the overall income tax paid, while strictly following the given tax slab rules.
+A MERN-based application that distributes a company’s total yearly salary among employees in an optimal way to minimize overall income tax, strictly following the given tax slab rules.
 
 The system calculates employee-wise salary, tax outgo, and take-home salary.
 
 ---
 
-## Problem Statement
-The application accepts:
-- Number of employees
-- Cumulative yearly salary of all employees
-
-Based on these inputs, it distributes salary optimally so that the total tax outgo across all employees is minimized.
+## Problem Summary
+- Input: Number of employees and total yearly salary  
+- Output: Employee-wise salary, tax, and take-home pay  
+- Goal: Minimize total tax outgo legally
 
 ---
 
 ## Tax Rules Implemented
-- Up to ₹2,50,000 → No tax
-- ₹2,50,000 to ₹5,00,000 → 10%
-- ₹5,00,000 to ₹10,00,000 → 20%
+- Up to ₹2,50,000 → 0%
+- ₹2,50,000 – ₹5,00,000 → 10%
+- ₹5,00,000 – ₹10,00,000 → 20%
 - Above ₹10,00,000 → 25%
-- If total tax exceeds ₹50,000, an additional 5% tax is applied on the excess amount
+- Additional 5% tax on tax amount exceeding ₹50,000
 
 ---
 
 ## Solution Approach
-Salary is distributed equally among employees to keep individual incomes within lower tax slabs.  
-Since the tax structure is progressive, equal distribution minimizes marginal tax and avoids higher slab taxation and surcharge wherever possible.
+Salary is distributed equally among employees to keep individual incomes in lower tax slabs.  
+Since the tax structure is progressive, equal distribution minimizes marginal tax and reduces surcharge impact.
 
 ---
 
 ## Features
-- Accepts number of employees and total yearly salary
-- Distributes salary optimally to minimize tax
-- Calculates employee-wise tax and take-home salary
-- Implements slab-wise tax and surcharge rules
+- Accepts number of employees and total salary
+- Optimized salary distribution
+- Employee-wise tax and take-home calculation
+- Slab-wise tax and surcharge implementation
 
 ---
 
@@ -47,28 +45,23 @@ Since the tax structure is progressive, equal distribution minimizes marginal ta
 
 ---
 
-## Technical Constraints Followed
-- Only MERN stack technologies used
+## Constraints Followed
+- MERN stack only
 - No CSS frameworks
-- No AI code generation tools
+
 
 ---
 
 ## How to Run
 
-### Start Backend
+### Backend
 ```bash
 cd backend
 npm install
 npm start
-Start Frontend
+
+### Backend
 cd frontend
 npm install
 npm start
-
-
-2. Start frontend:
-   - cd frontend
-   - npm install
-   - npm start
-<img width="1366" height="691" alt="image" src="https://github.com/user-attachments/assets/faa3c56c-4fdc-43d6-8128-0b5fbd64efa1" />
+<img width="1366" height="691" alt="image" src="https://github.com/user-attachments/assets/11638f7f-f174-4710-8734-1ba650c9260d" />
